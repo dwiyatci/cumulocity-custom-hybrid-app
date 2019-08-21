@@ -80,7 +80,7 @@ $ yarn deploy -u <your_tenant_url> -T <your_tenant> -U <your_username> -P <your_
 
 ## TODO
 
-- [ ] 🏞️ Integrate "ng1" unit testing infrastructure for legacy plugins (windy road ahead).
+- [ ] 🏞️ Integrate "ng1" unit testing infrastructure for legacy plugins (extremely windy road ahead).
 
 ## Author
 
