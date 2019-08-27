@@ -13,7 +13,7 @@
       "upgrade": true,
       "brandingEntry": "./branding/index.less",
       "entryModule": "./app/app.module#AppModule",
-      "xtsConfigPath": "../tsconfig.app.json"
+      "tsConfigPath": "../tsconfig.app.json"
     }
   }
 }
