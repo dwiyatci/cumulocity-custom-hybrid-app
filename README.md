@@ -4,7 +4,7 @@
 [![downloads](https://img.shields.io/npm/dt/cumulocity-custom-hybrid-app.svg)](http://npm-stat.com/charts.html?package=cumulocity-custom-hybrid-app)
 [![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://raw.githubusercontent.com/dwiyatci/cumulocity-custom-hybrid-app/master/LICENSE.txt)
 
-A base custom hybrid app "trait" for constructing custom hybrid apps with modular patterns and fundamental hooks usage.
+A Cumulocity base custom hybrid app "trait" for constructing custom hybrid apps with modular patterns and fundamental hooks usage.
 
 ![Screenshot](localhost_9000_apps_customhybridapp_.png)
 
@@ -29,7 +29,7 @@ $ yarn use-c8y <@c8y_packages_version>
 e.g.
 
 ```bash
-$ yarn use-c8y 1005.0.0
+$ yarn use-c8y 1005.1.0
 ```
 
 - Install dependencies:
@@ -51,6 +51,8 @@ $ yarn install:clean
 ```bash
 $ yarn start -u <your_tenant_url>
 ```
+
+- Find the running custom hybrid app at: <http://localhost:9000/apps/customhybridapp/>.
 
 ## Unit testing
 
