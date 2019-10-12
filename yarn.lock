@@ -1076,16 +1076,16 @@
     url-search-params-polyfill "6.0.0"
     zone.js "~0.8.28"
 
-"@c8y/cli@1005.1.0":
-  version "1005.1.0"
-  resolved "https://registry.yarnpkg.com/@c8y/cli/-/cli-1005.1.0.tgz#e9ae49583b5ff3edccea193117e2b56d7678bc2d"
-  integrity sha512-9pZshYET+hK/V/2YWYirm3faPljnppGiYGn/arMzCupHe6q1yG84MjzDvdpiZAmASPfmYNKeCLIuXFxRxVFobg==
+"@c8y/cli@1005.4.0":
+  version "1005.4.0"
+  resolved "https://registry.yarnpkg.com/@c8y/cli/-/cli-1005.4.0.tgz#9f4daf6bf3a55e8130ddcfe29c28fcb8f191509b"
+  integrity sha512-+YdqGtHfE0wKuuhiSLPCZMe1+bhh2x0DC2PBgMEHyV3p4z2/Wyzs4U18bTCw03PA7EcQlDPpO/uHazKpzdFTFA==
   dependencies:
     "@babel/core" "7.4.3"
     "@babel/plugin-proposal-object-rest-spread" "7.4.3"
     "@babel/plugin-syntax-dynamic-import" "7.2.0"
     "@babel/preset-env" "7.4.3"
-    "@c8y/client" "1005.1.0"
+    "@c8y/client" "1005.4.0"
     JSONPath "0.11.2"
     angular-gettext-tools "2.4.1"
     babel-eslint "10.0.1"
@@ -1119,20 +1119,6 @@
     webpack-sources "^1.2.0"
     yargs "12.0.2"
     zip-dir "1.0.2"
-
-"@c8y/client@1005.1.0":
-  version "1005.1.0"
-  resolved "https://registry.yarnpkg.com/@c8y/client/-/client-1005.1.0.tgz#87363d7686b6efd5ce07d42b3b58f126e5153585"
-  integrity sha512-BlqxaGWOyxJ9FGmy4MOdNKFYfwN9bk7ixyHjAerm168XUtT70GIVGfPZTNZtXj4ms87NKVsn1U4wHt2DgGkDDA==
-  dependencies:
-    "@types/node" "10.1.4"
-    b2a "1.1.2"
-    cometd "3.1.4"
-    cometd-nodejs-client "1.0.2"
-    cross-fetch "2.1.0"
-    form-data "2.3.2"
-    isomorphic-cometd "1.1.0"
-    rxjs "~6.3.3"
 
 "@c8y/client@1005.4.0":
   version "1005.4.0"
