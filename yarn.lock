@@ -101,6 +101,15 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/cdk@7.3.7":
+  version "7.3.7"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-7.3.7.tgz#ce1ad53ba04beb9c8e950acc5691ea0143753764"
+  integrity sha512-xbXxhHHKGkVuW6K7pzPmvpJXIwpl0ykBnvA2g+/7Sgy5Pd35wCC+UtHD9RYczDM/mkygNxMQtagyCErwFnDtQA==
+  dependencies:
+    tslib "^1.7.1"
+  optionalDependencies:
+    parse5 "^5.0.0"
+
 "@angular/common@7.2.2":
   version "7.2.2"
   resolved "https://registry.yarnpkg.com/@angular/common/-/common-7.2.2.tgz#f229eb52e37acf3db4e464c935021713a1d7195b"
@@ -1055,12 +1064,13 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@c8y/apps@1005.4.0":
-  version "1005.4.0"
-  resolved "https://registry.yarnpkg.com/@c8y/apps/-/apps-1005.4.0.tgz#621c3bde98208ea60d9d0a3a8148ce2a238c1e1c"
-  integrity sha512-ETM+7v0Tg7CWo+blIzxlUrlSV2Rzqo6YrHOyLbIfWVN95iXzDgzdpI+WRCGyFjtylabH2JKs1PAn0HnarnzrJg==
+"@c8y/apps@1005.8.0":
+  version "1005.8.0"
+  resolved "https://registry.yarnpkg.com/@c8y/apps/-/apps-1005.8.0.tgz#8f59c920c64a2458aebef47bec35bcf31c0b2014"
+  integrity sha512-FQH+BF73wTDcL2Dq9y9QQqqKcl+ukDaxK4+W0NexZzlwNuKp/J0u5cBhFseFnnlhbQt4g/7aElMQpoNUjO+FXg==
   dependencies:
     "@angular/animations" "7.2.2"
+    "@angular/cdk" "7.3.7"
     "@angular/common" "7.2.2"
     "@angular/compiler" "7.2.2"
     "@angular/core" "7.2.2"
@@ -1070,22 +1080,22 @@
     "@angular/platform-browser-dynamic" "7.2.2"
     "@angular/router" "7.2.2"
     "@angular/upgrade" "7.2.2"
-    "@c8y/ngx-components" "1005.4.0"
+    "@c8y/ngx-components" "1005.8.0"
     core-js "^2.6.2"
     rxjs "~6.3.3"
     url-search-params-polyfill "6.0.0"
     zone.js "~0.8.28"
 
-"@c8y/cli@1005.4.0":
-  version "1005.4.0"
-  resolved "https://registry.yarnpkg.com/@c8y/cli/-/cli-1005.4.0.tgz#9f4daf6bf3a55e8130ddcfe29c28fcb8f191509b"
-  integrity sha512-+YdqGtHfE0wKuuhiSLPCZMe1+bhh2x0DC2PBgMEHyV3p4z2/Wyzs4U18bTCw03PA7EcQlDPpO/uHazKpzdFTFA==
+"@c8y/cli@1005.8.0":
+  version "1005.8.0"
+  resolved "https://registry.yarnpkg.com/@c8y/cli/-/cli-1005.8.0.tgz#a885768ada8eaacb51b2b30f91ab1056a27c215a"
+  integrity sha512-DB/0JOp1R4vbSRG38gYBmdnChrjpuKXo8nOncXAoPS0TWpWbj1SjXy46Sn9CB5nQg4IS+yK+UKAiQ1cul8mzKQ==
   dependencies:
     "@babel/core" "7.4.3"
     "@babel/plugin-proposal-object-rest-spread" "7.4.3"
     "@babel/plugin-syntax-dynamic-import" "7.2.0"
     "@babel/preset-env" "7.4.3"
-    "@c8y/client" "1005.4.0"
+    "@c8y/client" "1005.8.0"
     JSONPath "0.11.2"
     angular-gettext-tools "2.4.1"
     babel-eslint "10.0.1"
@@ -1120,10 +1130,10 @@
     yargs "12.0.2"
     zip-dir "1.0.2"
 
-"@c8y/client@1005.4.0":
-  version "1005.4.0"
-  resolved "https://registry.yarnpkg.com/@c8y/client/-/client-1005.4.0.tgz#68370ac2f8e5337da5bb02a230dfb85b0eb78726"
-  integrity sha512-/nH9iCmkMMkvstt+HJQYr/gAYczXIrB/H3Go4uzBaCwGzxyjs6cLO2LHBT4VJqXxqXDCq676klgBqaO3Vaej3Q==
+"@c8y/client@1005.8.0":
+  version "1005.8.0"
+  resolved "https://registry.yarnpkg.com/@c8y/client/-/client-1005.8.0.tgz#cb0068850e96f2656533043f92ae9974e329b351"
+  integrity sha512-ejiXrO44Qb6S3PBinoTAyZx3+Bah9bd7olKh5viE4HozYVXpK6DzVNWDeutfCGVOfbZtbUDgNMd94y2qQcsg8w==
   dependencies:
     "@types/node" "10.1.4"
     b2a "1.1.2"
@@ -1134,10 +1144,10 @@
     isomorphic-cometd "1.1.0"
     rxjs "~6.3.3"
 
-"@c8y/ng1-modules@1005.4.0":
-  version "1005.4.0"
-  resolved "https://registry.yarnpkg.com/@c8y/ng1-modules/-/ng1-modules-1005.4.0.tgz#995f9d1c41ce77cc6e9b6538e8abe2b62fe0cd94"
-  integrity sha512-H9Xi1PNdF5n3Jc81w6OP6bUIkBc1tjZRkFYQIwOzs1IvbsyI+pnWRbPXmoiJT3QDwonjrOEL5Cj5XFGCBJIYpw==
+"@c8y/ng1-modules@1005.8.0":
+  version "1005.8.0"
+  resolved "https://registry.yarnpkg.com/@c8y/ng1-modules/-/ng1-modules-1005.8.0.tgz#964cbb39a4743a4bb6502c4d15b66545e6569e8e"
+  integrity sha512-5VMucGkHAdFEK1r5WEnGBykOh/h4ONIU1Fk2Hl8CRqRbicdCilnlDJdplD33NNyzgthcd2S3pT2vBlTTSP9J6g==
   dependencies:
     "@claviska/jquery-minicolors" "2.2.6"
     ace-builds "1.4.5"
@@ -1187,12 +1197,12 @@
     xterm "3.5.0"
     zip-js "0.0.2"
 
-"@c8y/ngx-components@1005.4.0":
-  version "1005.4.0"
-  resolved "https://registry.yarnpkg.com/@c8y/ngx-components/-/ngx-components-1005.4.0.tgz#f24c276689eeda4788e121b3c55dfc51d8a8e3a7"
-  integrity sha512-ViRyA9d2ieDN3bo6wKrqseqeUvi27BIijamI/kKsIeFnw1/1YFm7rhOXD2aZu9aLtIG2AJUSM9i9fUg0xSUKHQ==
+"@c8y/ngx-components@1005.8.0":
+  version "1005.8.0"
+  resolved "https://registry.yarnpkg.com/@c8y/ngx-components/-/ngx-components-1005.8.0.tgz#e8e7e1f2008c05cc7c5e0f3b8b3775644e9a0ffe"
+  integrity sha512-xfV1MjUB3w7sLS2/MS6n7ml5Xi13SBZNbvg9x5jkZSNBrV4Vq6GjGM5ZY1xD+a4LXTGcZ0k0aYvAjrTm7z8HMA==
   dependencies:
-    "@c8y/client" "1005.4.0"
+    "@c8y/client" "1005.8.0"
     "@ngx-translate/core" "10.0.2"
     "@ngx-translate/http-loader" "3.0.1"
     libphonenumber-js "1.7.14"
@@ -1200,10 +1210,10 @@
     ngx-bootstrap "^5.1.1"
     tslib "^1.9.2"
 
-"@c8y/style@1005.4.0":
-  version "1005.4.0"
-  resolved "https://registry.yarnpkg.com/@c8y/style/-/style-1005.4.0.tgz#18004ef77bec063dec21f547bd190b88501d02da"
-  integrity sha512-/b4FlL/0oUdswqSM8LUae8QDaWCC6qvsrnBDU2xnFzOFyx59vMdh19dTexVUuQ06asQgpD7dJnBYPsAQNsho4g==
+"@c8y/style@1005.8.0":
+  version "1005.8.0"
+  resolved "https://registry.yarnpkg.com/@c8y/style/-/style-1005.8.0.tgz#2963c617ff0523c0995a578648c07ae43cf84287"
+  integrity sha512-E/hd2zAPxbm+GGvvMTluGbdnlFztovYn8g7FlCBCSPQl47IfqSL4Rwt3sQXqUArHz01RucOnX6FLW/axpmCzlA==
   dependencies:
     font-awesome "4.7.0"
 
@@ -8494,6 +8504,11 @@ parse5@5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.0.tgz#c59341c9723f414c452975564c7c00a68d58acd2"
   integrity sha512-fxNG2sQjHvlVAYmzBZS9YlDp6PTSSDwa98vkD4QgVDDCAo84z5X1t5XyJQ62ImdLXx5NdIIfihey6xpum9/gRQ==
+
+parse5@^5.0.0:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.1.tgz#f68e4e5ba1852ac2cadc00f4555fff6c2abb6178"
+  integrity sha512-ugq4DFI0Ptb+WWjAdOK16+u/nHfiIrcE+sh8kZMaM0WllQKLI9rOUq6c2b7cwPkXdzfQESqvoqK6ug7U/Yyzug==
 
 parseurl@~1.3.2, parseurl@~1.3.3:
   version "1.3.3"
